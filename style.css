@@ -140,6 +140,10 @@ nav li a, nav li {
   display: none;
 }
 
+abbr, .expan {
+  cursor: pointer;
+}
+
 .textContainer {
   font-size: 11pt;
   line-height: 1em;
