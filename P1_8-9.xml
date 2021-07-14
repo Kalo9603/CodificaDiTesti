@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="applyStyle.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+		<teiHeader>
+				<fileDesc>
+						<titleStmt>
+								<title xml:lang="fr">Trois premières conférences à l'Université</title>
+								<title xml:lang="it">Le prime tre conferenze all'Università</title>
+								<author ref="#FDS">Ferdinand De Saussure</author>
+								<respStmt>
+										<resp source="#Fadda06">Translated by</resp>
+										<name ref="#EF">Emanuele Fadda</name>
+								</respStmt>
+						</titleStmt>
+						<editionStmt>
+								<edition> Digital Edition - <date when="2021-07">July 2021</date>
+						</edition>
+						<respStmt>
+								<resp>Project coordinated by</resp>
+								<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+						</respStmt>
+						<respStmt>
+								<resp>Encoded by</resp>
+								<name xml:id="CG">Calogero Giudice</name>
+						</respStmt>
+				</editionStmt>
+				<publicationStmt>
+						<publisher xml:lang="fr" ref="https://archives.bge-geneve.ch/archives/archives/fonds/saussure_ferdinand_de/view:5892/n:89"> Biblioteca di Ginevra </publisher>
+						<pubPlace ref="#GN"> Ginevra </pubPlace>
+						<availability>
+								<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
+						</availability>
+						<date when="2021"> 2021 </date>
+				</publicationStmt>
+				<sourceDesc>
+						<msDesc>
+								<msIdentifier>
+										<country key="CH">Switzerland</country>
+										<settlement ref="#GN">Geneva</settlement>
+										<repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1" xml:lang="fr">Bibliotèque de Genève</repository>
+										<idno type="inventory">BGE Ms. fr. 3951/1.1-3</idno>
+										<altIdentifier>
+												<idno type="collocation">Disponibile presso la Biblioteca di Ginevra</idno>
+										</altIdentifier>
+								</msIdentifier>
+								<msContents>
+										<msItem>
+												<author xml:lang="fr" ref="#FDS">
+														<persName ref="#FDS">Ferdinand De Saussure</persName>
+												</author>
+												<title type="uniform" xml:lang="fr">
+													Trois premières conférences à l'Université (cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+												<textLang mainLang="fr">francese</textLang>
+										</msItem>
+								</msContents>
+								<physDesc>
+										<objectDesc form="folio">
+												<supportDesc material="paper" resp="#CG" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+														<support>Fogli di <material>carta</material>
+												</support>
+												<extent>67 pagine e 1 foglietto. In particolare, le tre prolusioni sono
+																rispettivamente di 30, 15 e 22 pagine.</extent>
+												<condition resp="#CG">I fogli sono pressoché in buone condizioni. Alcuni risultano leggermente macchiati,
+																							altri invece sono strappati da uno dei lati, probabilmente perché strappati da un taccuino.</condition>
+										</supportDesc>
+										<layoutDesc>
+												<layout columns="1" ruledLines="20 30">
+														<p> Le pagine del manoscritto comprendono tra le 20 e le 30 righe, disposte su un'unica colonna.
+															Le righe sono dislocate dai margini del foglio in entrambe le direzioni: nei fogli sono contenuti diversi elementi che aggiungono
+															o modificano contenuto del testo originale.</p>
+												</layout>
+										</layoutDesc>
+								</objectDesc>
+								<handDesc hands="1">
+										<handNote xml:id="hand1">
+												<p>La mano è dello <persName ref="#FDS">stesso scrittore</persName>.</p>
+										</handNote>
+								</handDesc>
+								<typeDesc>
+										<p>Il testo è scritto in corsivo. In molti punti risulta cancellato in quanto appunti; in altri
+											si è deterioriato nel tempo, mentre in altri ancora la grafia risulta poco comprensibile.</p>
+								</typeDesc>
+						</physDesc>
+						<history>
+								<origin notAfter="1891-11-13">
+										<p>
+											La bozza venne scritta per la prima volta da <persName ref="#FDS">Ferdinand De Saussure</persName>.
+											Il testo, probabilmente destinato alla redazione di una <foreign xml:lang="fr">brochure</foreign>, venne esposto durante delle conferenze tenutesi a
+											<placeName ref="#GN">Ginevra</placeName>. Parte di questo manoscritto venne utilizzato per le prime lezioni
+											del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign> del <ref target="#CFS62">
+												<date when="1891-11-06">6</date>, <date when="1891-11-10">10</date>
+												e <date when="1891-11-13">13 novembre 1891</date>
+												</ref>.
+											</p>
+										</origin>
+										<acquisition>
+												<p>
+													Il testo originale venne in seguito acquisito dalla Biblioteca di <placeName ref="#GN">Ginevra</placeName>.
+												</p>
+										</acquisition>
+								</history>
+						</msDesc>
+				</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+				<langUsage>
+						<language ident="fr">Francese</language>
+				</langUsage>
+				<textDesc>
+						<channel mode="ws" />
+						<constitution type="single"/>
+						<derivation type="original"/>
+						<domain type="education"/>
+						<factuality type="fact"/>
+						<interaction type="partial"
+							active="singular" passive="group"/>
+						<preparedness type="draft"/>
+						<purpose type="inform" degree="high"/>
+				</textDesc>
+				<settingDesc>
+						<setting>
+								<name>
+										<placeName ref="#GN">Ginevra</placeName>, Svizzera</name>
+										<time>
+												<date when="1891-11">Novembre 1891</date>
+										</time>
+								</setting>
+						</settingDesc>
+				</profileDesc>
+		</teiHeader>
+		<facsimile>
+				<surface n="1" ulx="237" uly="297" lrx="3773" lry="4893" xml:id="P1_008">
+						<graphic url="P1_008.jpg" width="4032px" height="5124px" />
+						<zone ulx="406" uly="370" lrx="730" lry="650" rendition="HotSpot" xml:id="P1_008_N" />
+						<zone ulx="977" uly="485" lrx="3665" lry="641" rendition="Line" xml:id="P1_008_L1" />
+						<zone ulx="865" uly="681" lrx="3681" lry="821" rendition="Line" xml:id="P1_008_L2" />
+						<zone ulx="885" uly="909" lrx="3717" lry="1045" rendition="Line" xml:id="P1_008_L3" />
+						<zone ulx="333" uly="1101" lrx="3721" lry="1193" rendition="Line" xml:id="P1_008_L4" />
+						<zone ulx="429" uly="1305" lrx="3713" lry="1365" rendition="Line" xml:id="P1_008_L5" />
+						<zone ulx="889" uly="1481" lrx="3753" lry="1585" rendition="Line" xml:id="P1_008_L6" />
+						<zone ulx="905" uly="1625" lrx="3649" lry="1713" rendition="Line" xml:id="P1_008_L7" />
+						<zone ulx="877" uly="1797" lrx="3721" lry="1881" rendition="Line" xml:id="P1_008_L8" />
+						<zone ulx="837" uly="1993" lrx="3669" lry="2040" rendition="Line" xml:id="P1_008_L9" />
+						<zone ulx="841" uly="2203" lrx="3681" lry="2203" rendition="Line" xml:id="P1_008_L10" />
+						<zone ulx="893" uly="2239" lrx="3721" lry="2379" rendition="Line" xml:id="P1_008_L11" />
+						<zone ulx="933" uly="2483" lrx="3569" lry="2569" rendition="Line" xml:id="P1_008_L12" />
+						<zone ulx="901" uly="2691" lrx="3701" lry="2815" rendition="Line" xml:id="P1_008_L13" />
+						<zone ulx="921" uly="2863" lrx="3713" lry="2971" rendition="Line" xml:id="P1_008_L14" />
+						<zone ulx="333" uly="3047" lrx="3657" lry="3083" rendition="Line" xml:id="P1_008_L15" />
+						<zone ulx="901" uly="3227" lrx="3589" lry="3231" rendition="Line" xml:id="P1_008_L16" />
+						<zone ulx="977" uly="3417" lrx="3621" lry="3377" rendition="Line" xml:id="P1_008_L17" />
+						<zone ulx="945" uly="3529" lrx="3673" lry="3525" rendition="Line" xml:id="P1_008_L18" />
+						<zone ulx="925" uly="3693" lrx="3597" lry="3693" rendition="Line" xml:id="P1_008_L19" />
+						<zone ulx="905" uly="3841" lrx="3701" lry="3929" rendition="Line" xml:id="P1_008_L20" />
+						<zone ulx="917" uly="4057" lrx="3545" lry="4057" rendition="Line" xml:id="P1_008_L21" />
+						<zone ulx="945" uly="4233" lrx="3721" lry="4225" rendition="Line" xml:id="P1_008_L22" />
+						<zone ulx="933" uly="4349" lrx="3673" lry="4421" rendition="Line" xml:id="P1_008_L23" />
+						<zone ulx="929" uly="4597" lrx="3721" lry="4617" rendition="Line" xml:id="P1_008_L24" />
+				</surface>
+				<surface n="2" xml:id="P1_008a" ulx="285" uly="389" lrx="1901" lry="2477">
+						<graphic url="P1_008a.jpg" width="2048px" height="2920px" />
+				</surface>
+				<surface n="3" xml:id="P1_009" ulx="237" uly="284" lrx="3709" lry="5717">
+						<graphic url="P1_009.jpg" width="4032px" height="6048px" />
+						<zone ulx="567" uly="379" lrx="833" lry="736" rendition="HotSpot" xml:id="P1_009_N" />
+						<zone ulx="841" uly="313" lrx="3613" lry="837" rendition="Line" xml:id="P1_009_L1" />
+						<zone ulx="857" uly="833" lrx="3593" lry="1021" rendition="Line" xml:id="P1_009_L2" />
+						<zone ulx="893" uly="1001" lrx="3541" lry="1253" rendition="Line" xml:id="P1_009_L3" />
+						<zone ulx="845" uly="1260" lrx="3521" lry="1452" rendition="Line" xml:id="P1_009_L4" />
+						<zone ulx="847" uly="1468" lrx="3493" lry="1636" rendition="Line" xml:id="P1_009_L5" />
+						<zone ulx="373" uly="1656" lrx="3569" lry="1888" rendition="Line" xml:id="P1_009_L6" />
+						<zone ulx="549" uly="1863" lrx="3601" lry="2047" rendition="Line" xml:id="P1_009_L7" />
+						<zone ulx="833" uly="2088" lrx="3673" lry="2268" rendition="Line" xml:id="P1_009_L8" />
+						<zone ulx="817" uly="2254" lrx="3581" lry="2430" rendition="Line" xml:id="P1_009_L9" />
+						<zone ulx="857" uly="2454" lrx="3581" lry="2586" rendition="Line" xml:id="P1_009_L10" />
+						<zone ulx="369" uly="2582" lrx="2937" lry="2738" rendition="Line" xml:id="P1_009_L11" />
+						<zone ulx="837" uly="2807" lrx="3677" lry="5651" rendition="HotSpot" xml:id="P1_009_D" />
+				</surface>
+				<surface n="4" xml:id="P1_009a" ulx="237" uly="284" lrx="3709" lry="5717">
+						<graphic url="P1_009a.jpg" width="2320px" height="2928px" />
+						<zone ulx="553" uly="353" lrx="1965" lry="2637" rendition="HotSpot" xml:id="P1_009a_M" />
+				</surface>
+		</facsimile>
+		<text xml:lang="fr" xml:id="P1_008-9" subtype="manuscript">
+				<body>
+						<pb xml:id="P1_p008" n="8" facs="#P1_008" />
+						<div type="page" n="8">
+								<ab type="parag" n="1" xml:id="P1_008_pr1">
+
+										<lb xml:id="P1_008_line1" n="1" facs="#P1_008_L1" />
+										Ici ce présente cette objection ou cette
+
+										<lb xml:id="P1_008_line2" n="2" facs="#P1_008_L2" />
+										observation <add place="above" resp="#FDS">
+										<choice><abbr resp="#FDS">&#177;</abbr><expan>plus ou moins</expan></choice>
+										fondée selon nous</add>: vous transformez l’<term ref="#EdL">étude
+
+										<lb xml:id="P1_008_line3" n="3" facs="#P1_008_L3" />
+										des langues</term> en l’<term ref="#EdLge">étude du <w>langa<c rend="underline">g</c>e</w></term>
+										<add place="supralinear" resp="#FDS">*</add>, <del rend="overstrike">humain</del>
+
+										<lb xml:id="P1_008_line4" n="4" facs="#P1_008_L4" />
+										<add place="left" resp="#FDS"> du <term ref="#lgage">langage</term></add>
+										considéré comme <term ref="#FdH">faculté de l’homme</term>, comme
+
+										<lb xml:id="P1_008_line5" n="5" facs="#P1_008_L5" />
+										<add place="left" resp="#FDS">un des</add> signes distinctifs de son espèce, comme caractère
+
+										<lb xml:id="P1_008_line6" n="6" facs="#P1_008_L6" />
+										anthropologique ou pour ainsi dire zoologique.
+									</ab>
+									<ab type="parag" n="2" xml:id="P1_008_pr2">
+										<lb xml:id="P1_008_line7" n="7" facs="#P1_008_L7" />
+										Messieurs, c’est ici un point sur lequel il
+
+										<lb xml:id="P1_008_line8" n="8" facs="#P1_008_L8" />
+										me faudrait disposer d’un temps considérable
+
+										<lb xml:id="P1_008_line9" n="9" facs="#P1_008_L9" />
+										pour exposer, <add place="above" resp="#FDS">développer</add> et justifier mon <term ref="#pdV">point de
+
+										<lb xml:id="P1_008_line10" n="10" facs="#P1_008_L10" />
+										vue</term>, qui n’est pas autre que celui de tous
+
+										<lb xml:id="P1_008_line11" n="11" facs="#P1_008_L11" />
+										les <term ref="#EdLge">linguistes</term> actuels: c’est qu’en effet l’<term ref="#EdLge">étude
+
+										<lb xml:id="P1_008_line12" n="12" facs="#P1_008_L12" />
+										du langage</term><add place="above" resp="#FDS" seq="1">comme</add><term ref="#fH"><add place="above" resp="#FDS" seq="1">fait</add> humain</term> est tout entier ou
+
+										<lb xml:id="P1_008_line13" n="13" facs="#P1_008_L13" />
+										presque tout entier contenu dans l’<term ref="#EdL">étude des <emph rend="underline">langues</emph></term>.
+									</ab>
+									<ab type="parag" n="3" xml:id="P1_008_pr3">
+										<lb xml:id="P1_008_line14" n="14" facs="#P1_008_L14" />
+										Le <term ref="#phigie">physiologiste</term>, <del rend="overstrike" resp="#FDS">et</del> le <term ref="#phygie">psychologue</term>
+										<del rend="overstrike" resp="#FDS">pour</del>
+
+										<lb xml:id="P1_008_line15" n="15" facs="#P1_008_L15" />
+										et le <term ref="#log">logicien</term> pourront longtemps disserter, le <term ref="#phphe">philosophe</term>
+
+										<lb xml:id="P1_008_line16" n="16" facs="#P1_008_L16" />
+										pourra reprendre ensuite les résultats
+
+										<lb xml:id="P1_008_line17" n="17" facs="#P1_008_L17" />
+										combinés de la <term ref="#log">logique</term>, de la <term ref="#phygie">psychologie</term> et
+
+										<lb xml:id="P1_008_line18" n="18" facs="#P1_008_L18" />
+										de la <term ref="#phigie">physiologie</term>, jamais, je me permets de
+
+										<lb xml:id="P1_008_line19" n="19" facs="#P1_008_L19" />
+										le dire, les plus élémentaires phénomènes du
+
+										<lb xml:id="P1_008_line20" n="20" facs="#P1_008_L20" />
+										<term ref="#lgage">langage</term> ne seront soupçonnés, ou clairement
+
+										<lb xml:id="P1_008_line21" n="21" facs="#P1_008_L21" />
+										aperçus, classés et compris, si l’on ne
+
+										<lb xml:id="P1_008_line22" n="22" facs="#P1_008_L22" />
+										recourt en première et dernière instance à l’<term ref="#EdL">étude
+
+										<lb xml:id="P1_008_line23" n="23" facs="#P1_008_L23" />
+										<emph rend="underline">des langues</emph></term>.<ptr target="#P1_008_N1" />
+								</ab>
+								<ab type="parag" n="4" xml:id="P1_008_pr4">
+										<term ref="#lgue">Langue</term> et <term ref="#lgage">langage</term> ne sont
+										qu’une même chose; <gap reason="deleted" rend="overstrike" quantity="1" unit="word" resp="#FDS" /> l’un est la <w>générali
+
+										<lb xml:id="P1_008_line24" n="24" facs="#P1_008_L24" break="no" rend="double stroke" />
+										sation</w> de l’autre.<ptr target="#P1_008_N2" />
+								</ab>
+								<ab type="parag" n="5" xml:id="P1_008_pr5">
+									Vouloir étudier le <term ref="#lgage">langage</term>
+								</ab>
+						</div>
+
+						<pb xml:id="P1_p009" n="9" facs="#P1_009" />
+						<div type="page" n="9">
+								<ab type="parag" n="5" corresp="#P1_008_pr5">
+									<lb xml:id="P1_009_line1" n="1" facs="#P1_009_L1" />
+									sans se donner la peine <add place="above" resp="#FDS">d’en étudier
+									les diverses manifestations qu’évidemment sont</add> les
+
+									<lb xml:id="P1_009_line2" n="2" facs="#P1_009_L2" />
+									<term ref="#lgue" rend="underline">langues</term> est une entreprise <w>absolu
+
+									<lb xml:id="P1_009_line3" n="3" facs="#P1_009_L3" break="no" rend="double stroke" />
+									ment</w> vaine, <add resp="#FDS">et chimérique;</add> d’un autre côté vouloir étudier les
+
+									<lb xml:id="P1_009_line4" n="4" facs="#P1_009_L4" />
+									<term ref="#lgue">langues</term><del rend="overstrike" resp="#FDS">sans</del>
+									<gap extent="1 words" reason="deleted" /> en oubliant que ces
+
+									<lb xml:id="P1_009_line5" n="5" facs="#P1_009_L5" />
+									<term ref="#lgue">langues</term> sont primordialement régies par
+
+									<lb xml:id="P1_009_line6" n="6" facs="#P1_009_L6" />
+									certains <gap extent="1 words" reason="deleted" /><term ref="#pcpes">principes</term>
+									<subst><del rend="overstrike" resp="#FDS">humain</del><add place="above" resp="#FDS"><gap extent="1 words" reason="deleted" /></add></subst>
+									qui<subst><del rend="overstrike" resp="#FDS"><gap extent="1 words" reason="deleted" /></del><add place="above" resp="#FDS">sont</add></subst> résumés
+
+									<lb xml:id="P1_009_line7" n="7" facs="#P1_009_L7" />
+									dans <del rend="overstrike" resp="#FDS">pour</del> l’idée de <term ref="#lgage" rend="underline">langage</term> est <del rend="overstrike">d'un autre</del>
+
+									<lb xml:id="P1_009_line8" n="8" facs="#P1_009_L8" />
+									<del rend="overstrike">côté une entreprise denuée de tout in</del>
+
+									<lb xml:id="P1_009_line9" n="9" facs="#P1_009_L9" break="no" rend="double stroke" />
+									<del rend="overstrike"><gap extent="2 words" reason="deleted" /></del> un travail
+									<choice><abbr resp="#FDS">enc +</abbr><expan>encore plus</expan></choice> dénué
+
+									<lb xml:id="P1_009_line10" n="10" facs="#P1_009_L10" />
+									de toute signification sérieuse, de toute
+
+									<lb xml:id="P1_009_line11" n="11" facs="#P1_009_L11" />
+									base <del rend="overstrike" resp="#FDS"><gap extent="1 words" reason="deleted" /></del>
+									scientifique véritable.
+								</ab>
+								<ab type="parag" n="6">
+									<lb xml:id="P1_009_del" n="12" facs="#P1_009_D" />
+									<gap extent="15 lines" reason="deleted" />
+								</ab>
+						</div>
+
+						<!-- Traduzione dei testi -->
+						<div type="translation">
+								<ab n="1" corresp="#P1_008_pr1" xml:lang="it">
+									Qui si presenta quest’obiezione, secondo noi
+									più o meno fondata: ma allora tu trasformi lo studio
+									delle lingue nello studio del linguaggio considerato
+									come facoltà dell’uomo, come uno dei segni
+									distintivi della sua specie, come carattere
+									antropologico o per così dire zoologico.
+								</ab>
+								<ab n="2" corresp="#P1_008_pr2" xml:lang="it">
+									Signori, si tratta qui d’un punto sul quale dovrei disporre
+									d’un tempo considerevole per esporre, sviluppare e
+									giustificare il mio punto di vista, che non è altro che
+									quello di tutti i linguisti al giorno d’oggi: e cioè che
+									lo studio del linguaggio come fatto umano è tutto o
+									quasi tutto ricompreso nello studio delle <hi rend="italic">lingue</hi>.
+								</ab>
+								<ab n="3" corresp="#P1_008_pr3" xml:lang="it">
+									Il fisiologo, lo psicologo e il logico potranno dissertare
+									a lungo, il filosofo potrà poi riprendere i risultati
+									combinati della logica, della psicologia e della
+									fisiologia: mai, mi permetto di dire, i più elementari
+									fenomeni del linguaggio saranno subodorati, o
+									chiaramente intuiti, classificati e compresi, se non si
+									ricorre in prima e in ultima istanza allo studio delle
+									<hi rend="italic">lingue</hi>.
+								</ab>
+								<ab n="4" corresp="#P1_008_pr4" xml:lang="it">
+									Lingua e linguaggio non sono che una medesima cosa;
+									l’uno è la generalizzazione dell’altra.
+								</ab>
+								<ab n="5" corresp="#P1_008_pr5" xml:lang="it">
+									Voler studiare il linguaggio senza darsi
+									la pena di studiarne le diverse manifestazioni, che,
+									evidentemente, sono le lingue è un’impresa
+									assolutamente vana, e chimerica; d’altro canto, voler
+									studiare le lingue dimenticando che tali lingue sono
+									rette in modo primordiale da certi principi che sono
+									riassunti nell’idea di linguaggio è lavoro ancora più
+									spoglio di ogni significato serio, di ogni reale base
+									scientifica.
+								</ab>
+						</div>
+				</body>
+				<back>
+						<!-- Contiene tutte le informazioni aggiuntive del testo -->
+						<div type="addList">
+								<!-- Note -->
+								<list type="notes">
+										<item n="1">
+												<note xml:id="P1_008_N1" source="#CDLG" resp="#TDM">
+														<persName ref="#FDS">Saussure</persName> non nega affatto il radicamento biologico del linguaggio. [...]
+														Nota soprattutto l’insistenza sull’imprescindibilità delle lingue, che si presentano irriducibilmente molteplici
+														e diverse l’una dall’altra.
+													</note>
+												</item>
+											<item n="2">
+														<note xml:id="P1_008_N2" source="#CDLG" resp="#TDM">
+																<persName ref="#FDS">Saussure</persName> vuole rimarcare la complementarità di <term ref="#lgue">lingua</term> e <term ref="#lgage">linguaggio</term>.
+																La sua affermazione, però, non può e non deve essere confusa con una concezione <hi rend="italic">à la <persName ref="#NC">Chomsky</persName></hi>,
+																per cui il vero <term ref="#lgage" rend="italic">langage</term> è la Grammatica Universale, e lo studio delle lingue è in fondo
+																solo questione di parametrizzazione.
+														</note>
+												</item>
+									</list>
+												<!-- Terminologia -->
+												<list type="terminology">
+														<label>
+																<term xml:id="EdL" xml:lang="fr">Étude des langues</term>
+																<term ref="#EdL" xml:lang="it">Studio delle lingue</term>
+														</label>
+														<item>
+																<gloss target="#EdL" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica_storica">
+																	Lo <hi rend="bold">studio delle lingue</hi>, o <hi rend="bold">glottologia</hi>, si occupa dello studio storico delle lingue e delle loro famiglie e
+																	gruppi di appartenenza, delle origini etimologiche delle parole, considerando i loro rapporti e sviluppi
+																	in diacronia.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="EdLge" xml:lang="fr">Étude du language</term>
+																<term ref="#EdLge" xml:lang="it">Studio del linguaggio</term>
+														</label>
+														<item>
+																<gloss target="#EdLge" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica">
+																	Lo <hi rend="bold">studio del linguaggio</hi>, o <hi rend="bold">linguistica</hi>, include lo studio della fonetica, della grammatica, del lessico,
+																	della morfologia, della sintassi e della testualità. È una disciplina scientifica, in quanto si basa su
+																	approcci empirici e oggettivi. Un <hi rend="bold">linguista</hi> è una persona specializzata nell'ambito della linguistica.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="FdH" xml:lang="fr">Faculté de l'homme</term>
+																<term ref="#FdH" xml:lang="it">Facoltà dell'uomo</term>
+														</label>
+														<item>
+																<gloss target="#FdH" xml:lang="it" source="https://it.wikipedia.org/wiki/Facolt%C3%A0_(filosofia)">
+																	Per <hi rend="bold">facoltà</hi> la filosofia intende genericamente le potenzialità intellettive e
+																	psichiche dell'uomo di arrivare a capire fatti conoscitivi e provare sentimenti.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="fH" xml:lang="fr">Fait humain</term>
+																<term ref="#fH" xml:lang="it">Fatto umano</term>
+														</label>
+														<item>
+																<gloss target="#fH" xml:lang="it" resp="#CG">
+																	Per <hi rend="bold">fatto umano</hi> si intende un fenomeno relativo alla specie umana.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="lgage" xml:lang="fr">Langage</term>
+														</label>
+														<item>
+																<gloss target="#lgage" xml:lang="it" source="https://www.treccani.it/enciclopedia/linguaggio/">
+																	Il <hi rend="bold">linguaggio</hi> è una forma di condotta comunicativa atta a trasmettere informazioni e a stabilire un rapporto di interazione
+																	che utilizza simboli aventi identico valore per gli individui appartenenti a uno stesso ambiente socioculturale.
+																	Dalle peculiarità della lingua rispetto a ogni altro codice semiologico derivano le peculiarità del linguaggio
+																	verbale rispetto a ogni altro tipo di semiosi.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="lgue" xml:lang="fr">Langue</term>
+														</label>
+														<item>
+																<gloss target="#lgue" xml:lang="it" source="#CDLG">
+																	La <hi rend="bold">lingua</hi> è un prodotto sociale della facoltà del linguaggio ed un insieme di convenzioni necessarie,
+																	adottate dal corpo sociale per consentire l'esercizio di questa facoltà negli individui. [...]
+																	È in sé una totalità e un principio di classificazione. Dal momento in cui le assegnamo il primo posto
+																	tra i fatti di linguaggio, introduciamo un ordine naturale in un insieme che non si presta ad altra
+																	classificazione.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="log" xml:lang="fr">Logique</term>
+																<term ref="#log" xml:lang="it">Logica</term>
+														</label>
+														<item>
+																<gloss target="#log" xml:lang="it" source="https://it.wikipedia.org/wiki/Logica https://www.treccani.it/enciclopedia/tag/logica/">
+																	La <hi rend="bold">logica</hi> è la disciplina che studia le condizioni di validità delle argomentazioni deduttive:
+																	lo studio del ragionamento e dell'argomentazione, rivolto in particolare a definire
+																	la correttezza dei procedimenti inferenziali del pensiero.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="phphe" xml:lang="fr">Philosophe</term>
+																<term ref="#phphe" xml:lang="it">Filosofia</term>
+														</label>
+														<item>
+																<gloss target="#phphe" xml:lang="it" source="https://it.wikipedia.org/wiki/Filosofia">
+																	La <hi rend="bold">filosofia</hi> è un campo di studi che si pone domande e riflette sul mondo e sull'essere umano,
+																	indaga sul senso dell'essere e dell'esistenza umana. Come intrinseco nel nome stesso la filosofia è
+																	l'amore per la conoscenza e la ricerca.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="phigie" xml:lang="fr">Physiologie</term>
+																<term ref="#phigie" xml:lang="it">Fisiologia</term>
+														</label>
+														<item>
+																<gloss target="#phigie" xml:lang="it" source="https://it.wikipedia.org/wiki/Fisiologia">
+																	La <hi rend="bold">fisiologia</hi> è la branca della biologia che studia il funzionamento degli organismi viventi, analizzando
+																	i principi chimico-fisici del funzionamento degli esseri viventi, siano essi mono o pluricellulari,
+																	animali o vegetali.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="pdV" xml:lang="fr">Point de vue</term>
+																<term ref="#pdV" xml:lang="it">Punto di vista</term>
+														</label>
+														<item>
+																<gloss target="#pdV" xml:lang="it" source="https://www.treccani.it/vocabolario/vista/">
+																	Per <hi rend="bold">punto di vista</hi> si intende il modo soggettivo di vedere i fatti, le situazioni e i problemi, e quindi di intendere, di valutare.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="pcpes" xml:lang="fr">Principe</term>
+																<term ref="#pcpes" xml:lang="it">Principio</term>
+														</label>
+														<item>
+																<gloss target="#pcpes" xml:lang="it" source="https://it.wikipedia.org/wiki/Principio">
+																	Un <hi rend="bold">principio</hi> è un concetto che indica le basi e i presupposti iniziali su cui si basa o poggia
+																	una teoria e che assumono, per convenzione o riconosciuto diritto, validità generale ed universale
+																	all'interno della teoria stessa.
+																</gloss>
+														</item>
+														<label>
+																<term xml:id="phygie" xml:lang="fr">Psychologie</term>
+																<term ref="#phygie" xml:lang="it">Psicologia</term>
+														</label>
+														<item>
+																<gloss target="#phygie" xml:lang="it" source="https://it.wikipedia.org/wiki/Psicologia">
+																	La <hi rend="bold">psicologia</hi> è la scienza che studia gli stati mentali e i suoi processi emotivi, cognitivi,
+																	sociali e comportamentali nelle loro componenti consce e inconsce, mediante l'uso del metodo scientifico
+																	e/o appoggiandosi ad una prospettiva soggettiva intrapersonale.
+																</gloss>
+														</item>
+												</list>
+
+												<listPerson>
+														<person xml:id="FDS">
+																<persName role="linguist">
+																		<ref xml:lang="it" target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure https://www.treccani.it/enciclopedia/ferdinand-de-saussure/" />
+																		<forename>Ferdinand</forename>
+																		<surname>De Saussure</surname>
+																</persName>
+																<sex>M</sex>
+																<birth>
+																		<date when="1857-11-26">26 novembre 1857</date>
+																		<placeName ref="#GN">
+																				<settlement type="municipality">Ginevra</settlement>
+																				<settlement type="canton" key="Geneva">Ginevra</settlement>
+																				<country key="CH">Svizzera</country>
+																		</placeName>
+																</birth>
+																<death>
+																		<date when="1913-02-22">22 febbraio 1913</date>
+																		<placeName ref="#VlC">
+																				<settlement type="municipality">Vufflens-le-Château</settlement>
+																				<settlement type="canton" key="Vaud">Vaud</settlement>
+																				<country key="CH">Svizzera</country>
+																		</placeName>
+																</death>
+														</person>
+														<person xml:id="NC">
+																<persName role="linguist">
+																		<ref xml:lang="it" target="https://it.wikipedia.org/wiki/Noam_Chomsky https://www.treccani.it/enciclopedia/avram-noam-chomsky/" />
+																		<forename>Avram</forename>
+																		<forename>Noam</forename>
+																		<surname>Chomsky</surname>
+																</persName>
+																<sex>M</sex>
+																<birth>
+																		<date when="1928-12-07">7 dicembre 1928</date>
+																		<placeName ref="#PH">
+																				<settlement type="municipality">Philadelphia</settlement>
+																				<settlement type="state" key="PA">Pennsylvania</settlement>
+																				<country key="USA">Stati Uniti d'America</country>
+																		</placeName>
+																</birth>
+														</person>
+												</listPerson>
+
+												<!-- Riferimenti bibiografici -->
+												<listBibl>
+														<bibl xml:id="Fadda06">
+																<author xml:id="EF">
+																		<forename>Emanuele</forename>
+																		<surname>Fadda</surname>
+																</author>
+																<title type="main" level="m">Lingua e mente sociale</title>
+																<title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+																<pubPlace><placeName ref="#ACR">Acireale</placeName></pubPlace>
+																<pubPlace><placeName ref="#RM">Roma</placeName></pubPlace>
+																<publisher>Bonanno Editore</publisher>
+																<date when="2006">2006</date>
+																<biblScope unit="volume">1</biblScope>
+																<biblScope unit="page" from="88" to="88">88</biblScope>
+														</bibl>
+
+														<bibl xml:id="CDLG">
+																<author ref="#FDS">
+																	<forename>Ferdinand</forename>
+																	<surname>De Saussure</surname>
+																</author>
+																<author xml:id="TDM">
+																	<forename>Tullio</forename>
+																	<surname>De Mauro</surname>
+																</author>
+																<title type="main" level="m">Corso di linguistica generale</title>
+																<title type="sub">Introduzione, traduzione e commento di Tullio De Mauro</title>
+																<pubPlace><placeName ref="#RM">Roma</placeName></pubPlace>
+																<pubPlace><placeName ref="#BA">Bari</placeName></pubPlace>
+																<date when="1976">1976</date>
+																<publisher>Editori Laterza</publisher>
+																<note source="https://hls-dhs-dss.ch/it/articles/016165/2013-01-31/">
+																	Il <hi rend="italic">Corso di linguistica generale</hi> affronta la problematica del <term ref="#lgage">linguaggio</term>
+																	esaminandone le condizioni di esistenza, la sua struttura e la sua evoluzione; si interessa anche e soprattutto delle diverse modalità di apprendimento
+																	di questa istituzione sociale multiforme e complessa. Desiderando conferire alla linguistica una solidità
+																	scientifica, <persName ref="#FDS">De Saussure</persName> le attribuì un preciso dominio di indagine, quello della <term ref="#lgue">lingua</term>,
+																	concepita come un sistema di opposizioni differenziali. Egli tentò pure di istituire un metodo e dei criteri
+																	di valutazione per l'identificazione delle unità linguistiche.
+																</note>
+														</bibl>
+
+														<bibl xml:id="CFS62" xml:lang="fr" source="https://www.jstor.org/stable/41427851?seq=1#metadata_info_tab_contents">
+																<author ref="#AC">
+																		<forename>Alessandro</forename>
+																		<surname>Chidichimo</surname>
+																</author>
+																<title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+																<pubPlace ref="#GN"><placeName ref="#GN">Ginevra</placeName></pubPlace>
+																<publisher>Librairie Droz</publisher>
+																<date when="2009">2009</date>
+														</bibl>
+												</listBibl>
+
+												<listPlace>
+														<place xml:id="GN">
+																<placeName ref="https://www.treccani.it/enciclopedia/ginevra/ https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
+																<settlement type="canton" key="Geneva">Ginevra</settlement>
+																<country key="CH">Svizzera</country>
+														</place>
+														<place xml:id="VlC">
+																<placeName ref="https://it.wikipedia.org/wiki/Vufflens-le-Ch%C3%A2teau">Vufflens-le-Château</placeName>
+																<settlement type="canton" key="Vaud">Vaud</settlement>
+																<country key="CH">Svizzera</country>
+														</place>
+														<place xml:id="RM">
+																<placeName ref="https://it.wikipedia.org/wiki/Roma">Roma</placeName>
+																<settlement type="region" key="Latium">Lazio</settlement>
+																<country key="IT">Italia</country>
+														</place>
+														<place xml:id="BA">
+																<placeName ref="https://it.wikipedia.org/wiki/Bari">Bari</placeName>
+																<settlement type="region" key="Apulia">Puglia</settlement>
+																<country key="IT">Italia</country>
+														</place>
+														<place xml:id="ACR">
+																<placeName ref="https://it.wikipedia.org/wiki/Acireale">Acireale</placeName>
+																<settlement type="region" key="Sicily">Sicilia</settlement>
+																<country key="IT">Italia</country>
+														</place>
+												</listPlace>
+										</div>
+								</back>
+						</text>
+				</TEI>

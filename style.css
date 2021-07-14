@@ -1,0 +1,601 @@
+@font-face {
+    font-family: "Futura";
+    src: url('src/Futura.ttf');
+}
+
+
+body {
+  font-family: sans-serif;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 75px;
+  background-color: rgb(253, 196, 130);
+  overflow-x: hidden;
+}
+
+header {
+  background-color: white;
+  border: 3px solid black;
+  padding: 6px 18px;
+  margin: auto;
+}
+
+header, nav {
+    max-width: fit-content;
+}
+
+header * {
+  font-family: 'Futura';
+  text-align: center;
+}
+
+h1 {
+  font-size: 22pt;
+  text-transform: uppercase;
+}
+
+header h2 {
+  font-size: 18pt;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Futura';
+  text-transform: uppercase;
+}
+
+header h2 {
+  text-transform: none;
+}
+
+nav {
+  text-transform: uppercase;
+  margin: 12px auto;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: black;
+}
+
+nav * {
+  padding: 4px 16px;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 14pt;
+  font-family: 'Futura';
+  color: black;
+  display: inline-block;
+}
+
+nav li {
+  background-color: white;
+}
+
+nav li:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+nav li:not(:first-child) {
+  border-left: 1px solid black;
+}
+
+nav li a:hover, nav li:hover {
+  background-color: darkorange;
+  color: white;
+}
+
+nav li:first-child, nav li:first-child:hover {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+nav li:last-child, nav li:last-child:hover {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+nav li a, nav li {
+  cursor: pointer;
+}
+
+#contents {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+}
+
+#contents section {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#contents section:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+
+.options, #fWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.options > * {
+  padding: 0 15px;
+}
+
+.options h4 {
+  text-align: center;
+}
+
+.options :not(h4):not(i) {
+  margin: 3px 9px;
+}
+
+.bilang .it, .iVerso, .expan, del, .gap, .trslText, #trslWrapper {
+  display: none;
+}
+
+.textContainer {
+  font-size: 11pt;
+  line-height: 1em;
+  background-color: white;
+  height: fit-content;
+}
+
+.expan {
+  background-color: rgb(255, 255, 160);
+  font-weight: 600;
+}
+
+del {
+  background-color: rgb(192, 192, 192);
+  color: rgb(64, 64, 64);
+  font-weight: 500;
+  font-style: italic;
+  padding: 2px;
+}
+
+.noteIndex {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: 'Futura';
+  vertical-align: super;
+  font-size: 9pt;
+}
+
+.noteList .noteIndex {
+  margin-right: 8px;
+}
+
+.noteIndex:hover {
+  color: red;
+}
+
+.bBook {
+  margin: 12px auto;
+}
+
+.page {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.page, .page > * {
+    padding: 15px;
+}
+
+.chooseSide {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.chooseSide > * {
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.parag {
+  display: inline;
+}
+
+.textContainer {
+  position: relative;
+  bottom: 32px;
+}
+
+.lineNumber, del .lineNumber {
+  font-weight: 600;
+  background-color: white;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  font-family: 'Futura';
+}
+
+.lineNumber:hover, del .lineNumber:hover, ins {
+  text-decoration: none;
+}
+
+#fWrapper > * {
+  margin: 0 10px;
+}
+
+.fCol1 {
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+
+#infoBox {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+#infoBox .tooltip {
+  font-style: normal;
+}
+
+.gap {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  padding: 2px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.fCredits, .fEdition {
+  line-height: 15px;
+}
+
+.fEdition .fCredits:not(:first-child) {
+  margin: 15px auto;
+  position: relative;
+  bottom: 20px;
+}
+
+.fRole, .commons, .edition {
+  font-weight: 600;
+}
+
+footer {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+footer > * {
+  height: fit-content;
+}
+
+#backToTop {
+  display: none;
+  position: fixed;
+  padding: 6px;
+  right: 50px;
+  bottom: 50px;
+  z-index: 5;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  font-size: 10pt;
+  text-transform: uppercase;
+  font-family: 'Futura';
+}
+
+#translation {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#translation .keyBtns {
+  align-items: flex-start;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.btnOff {
+    font-family: 'Futura';
+    margin: auto 10px;
+    padding: 5px;
+    font-size: 12pt;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #DDD;
+    color: #888;
+}
+
+.btnOn {
+  background-color: green;
+  color: white;
+}
+
+.keyBtns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#trslBtn {
+  margin: auto;
+}
+
+#trslWrapper {
+  margin-top: 10px;
+}
+
+#trslWrapper label {
+  text-align: center;
+  font-family: 'Futura';
+  text-transform: uppercase;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* Styling dello slider traduzione */
+
+.slider input[type=range] {
+  height: 30px;
+  -webkit-appearance: none;
+  width: 100%;
+}
+
+.slider input[type=range]:focus {
+  outline: none;
+}
+
+.slider input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 3px 3px 3px #002200;
+  background: #DDDDDD;
+  border-radius: 50px;
+  border: 1px solid #000000;
+}
+
+.slider input[type=range]::-webkit-slider-thumb {
+  box-shadow: 3px 3px 3px #888888;
+  border: 2px solid #FFFFFF;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #000096;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -8px;
+}
+
+.slider input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 3px 3px 3px #002200;
+  background: #DDDDDD;
+  border-radius: 50px;
+  border: 1px solid #000000;
+}
+
+.slider input[type=range]::-moz-range-thumb {
+  box-shadow: 3px 3px 3px #888888;
+  border: 2px solid #FFFFFF;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #000096;
+  cursor: pointer;
+}
+
+.slider input[type=range]::-ms-track {
+  width: 100%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.slider input[type=range]::-ms-fill-lower {
+  background: #DDDDDD;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  box-shadow: 3px 3px 3px #002200;
+}
+
+.slider input[type=range]::-ms-fill-upper {
+  background: #DDDDDD;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  box-shadow: 3px 3px 3px #002200;
+}
+
+.slider input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 3px 3px 3px #888888;
+  border: 2px solid #FFFFFF;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #000096;
+  cursor: pointer;
+}
+
+.slider input[type=range]:focus::-ms-fill-lower,
+.slider input[type=range]:focus::-ms-fill-upper,
+.slider input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #DDDDDD;
+}
+
+/* Fine stile slider traduzione */
+
+#trslTextContainer {
+  max-width: 250px;
+  height: fit-content;
+  font-size: 10pt;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.key {
+  display: inline;
+  cursor: help;
+}
+
+.key > span, #CDLG .bTitle {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.keyword:hover {
+  background-color: rgb(140, 255, 140);
+}
+
+.persName:hover {
+    background-color: #D86AEC;
+}
+
+.placeName:hover {
+    background-color: rgb(140, 140, 255);
+}
+
+.keyOn, .persOn, .placeOn {
+  font-weight: bold;
+  padding: 2px;
+  border: none;
+}
+
+.keyOn {
+  background-color: #FFEB82;
+}
+
+.persOn {
+  background-color: #F3B2FF;
+}
+
+.placeOn {
+  background-color: #00FFD7;
+}
+
+.tooltip {
+    display: none;
+    max-height: fit-content;
+    max-width: 300px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    text-align: justify;
+    font-size: 9pt;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 6px;
+
+    transform: translate(-50%, 25px);
+}
+
+.keyDesc {
+    transform: translate(-50%, 25px);
+}
+
+.key:hover .tooltip {
+    display: inline-block;
+}
+
+.keyword + .tooltip {
+  background: radial-gradient(circle, rgba(255, 216, 107, 1) 0%, rgba(254, 222, 81, 1) 100%);
+  border: 1px solid darkorange;
+}
+
+.placeName + .tooltip {
+  background: radial-gradient(circle, rgba(139, 198, 255, 1) 0%, rgba(137, 228, 255, 1) 100%);
+  border: 1px solid darkblue;
+}
+
+.persName + .tooltip {
+  background: radial-gradient(circle, rgba(255, 191, 168, 1) 0%, rgba(255, 217, 194, 1) 100%);
+  border: 1px solid darkred;
+}
+
+.persDesc .fullName, .icon {
+  margin: auto 6px;
+}
+
+.persDesc .fullName {
+  text-transform: uppercase;
+}
+
+.persDesc .fullName, .persDesc span span {
+  font-weight: 600;
+}
+
+.icon {
+  position: relative;
+  top: 1px;
+  width: 12px;
+}
+
+.orAreaHlight {
+  background-color: lightblue;
+}
+
+#CDLG .bTitle {
+  cursor: help;
+}
+
+#CDLG .bTitle:hover {
+  background-color: lightpink;
+}
+
+.bkDesc {
+  display: none;
+  font-size: 10pt;
+  border: 1px solid black;
+  width: 90%;
+  padding: 10px;
+  margin: 16px auto;
+}
+
+.closePanel {
+  color: white;
+  background-color: darkred;
+  font-size: 10pt;
+  font-family: 'Futura';
+  padding: 4px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  left: 90%;
+  text-transform: uppercase;
+}
+
+.closePanel:hover {
+  font-weight: 600;
+  background-color: red;
+}
