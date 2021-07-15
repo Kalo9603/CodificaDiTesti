@@ -131,7 +131,7 @@
 				</profileDesc>
 		</teiHeader>
 		<facsimile>
-				<surface n="1" ulx="237" uly="297" lrx="3773" lry="4893" xml:id="P1_008">
+				<surface n="1" xml:id="P1_008">
 						<graphic url="P1_008.jpg" width="4032px" height="5124px" />
 						<zone ulx="406" uly="370" lrx="730" lry="650" rendition="HotSpot" xml:id="P1_008_N" />
 						<zone ulx="977" uly="485" lrx="3665" lry="641" rendition="Line" xml:id="P1_008_L1" />
@@ -159,10 +159,10 @@
 						<zone ulx="933" uly="4349" lrx="3673" lry="4421" rendition="Line" xml:id="P1_008_L23" />
 						<zone ulx="929" uly="4597" lrx="3721" lry="4617" rendition="Line" xml:id="P1_008_L24" />
 				</surface>
-				<surface n="2" xml:id="P1_008a" ulx="285" uly="389" lrx="1901" lry="2477">
+				<surface n="2" xml:id="P1_008a">
 						<graphic url="P1_008a.jpg" width="2048px" height="2920px" />
 				</surface>
-				<surface n="3" xml:id="P1_009" ulx="237" uly="284" lrx="3709" lry="5717">
+				<surface n="3" xml:id="P1_009">
 						<graphic url="P1_009.jpg" width="4032px" height="6048px" />
 						<zone ulx="567" uly="379" lrx="833" lry="736" rendition="HotSpot" xml:id="P1_009_N" />
 						<zone ulx="841" uly="313" lrx="3613" lry="837" rendition="Line" xml:id="P1_009_L1" />
@@ -178,9 +178,8 @@
 						<zone ulx="369" uly="2582" lrx="2937" lry="2738" rendition="Line" xml:id="P1_009_L11" />
 						<zone ulx="837" uly="2807" lrx="3677" lry="5651" rendition="HotSpot" xml:id="P1_009_D" />
 				</surface>
-				<surface n="4" xml:id="P1_009a" ulx="237" uly="284" lrx="3709" lry="5717">
+				<surface n="4" xml:id="P1_009a">
 						<graphic url="P1_009a.jpg" width="2320px" height="2928px" />
-						<zone ulx="553" uly="353" lrx="1965" lry="2637" rendition="HotSpot" xml:id="P1_009a_M" />
 				</surface>
 		</facsimile>
 		<text xml:lang="fr" xml:id="P1_008-9" subtype="manuscript">

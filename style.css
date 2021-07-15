@@ -136,7 +136,7 @@ nav li a, nav li {
   margin: 3px 9px;
 }
 
-.bilang .it, .iVerso, .expan, del, .gap, .trslText, #trslWrapper {
+.bilang .it, .iVerso, .expan, del, .gap, area, .trslText, #trslWrapper {
   display: none;
 }
 

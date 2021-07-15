@@ -179,14 +179,42 @@
         </xsl:attribute>
 
         <xsl:for-each select="current()/tei:zone">
+          <xsl:variable name="ulx" select="@ulx" />
+          <xsl:variable name="uly" select="@uly" />
+          <xsl:variable name="lrx" select="@lrx" />
+          <xsl:variable name="lry" select="@lry" />
+          <xsl:variable name="width" select="translate(../tei:graphic/@width, 'px', '')" />
+          <xsl:variable name="height" select="translate(../tei:graphic/@height, 'px', '')" />
+          <xsl:variable name="ratio" select="350 div $width" />
+          <xsl:variable name="w" select="$width * $ratio" />
+          <xsl:variable name="h" select="$height * $ratio" />
+
           <xsl:element name="area">
             <xsl:attribute name="shape">rect</xsl:attribute>
             <xsl:attribute name="coords">
               <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)" />
             </xsl:attribute>
-            <xsl:attribute name="href"><xsl:text>#</xsl:text></xsl:attribute>
+            <xsl:attribute name="href">
+             <xsl:choose>
+               <xsl:when test="../@n mod 2 = 1">
+                  <xsl:value-of select="concat('#line', substring(@xml:id, 6, 1), '_', (position() - 1))" />
+               </xsl:when>
+               <xsl:when test="../@n mod 2 = 0">
+                  <xsl:value-of select="concat('#line', substring(@xml:id, 6, 1), 'a_', (position() - 1))" />
+               </xsl:when>
+             </xsl:choose>
+            </xsl:attribute>
             <xsl:attribute name="id">
               <xsl:value-of select="@xml:id" />
+            </xsl:attribute>
+            <xsl:attribute name="style">
+              position: absolute;
+              left: <xsl:value-of select="$ulx * $ratio" />; <!-- ??? -->
+              top: <xsl:value-of select="$uly * $ratio" />; <!-- ??? -->
+              width: <xsl:value-of select="($lrx - $ulx) * $ratio" />;
+              height: <xsl:value-of select="($lry - $uly) * $ratio" />;
+              <!-- background-color: rgba(220, 220, 255, 0.3);
+              z-index: 2; -->
             </xsl:attribute>
           </xsl:element>
         </xsl:for-each>
@@ -391,7 +419,9 @@
       <br />
       <xsl:element name="span">
         <xsl:attribute name="class">lineNumber</xsl:attribute>
-        <xsl:attribute name="id">line_<xsl:value-of select="current()/@n" /></xsl:attribute>
+        <xsl:attribute name="id">
+          <xsl:value-of select="concat('line', substring(@xml:id, 6, 1), '_', @n)" />
+        </xsl:attribute>
         <xsl:value-of select="@n" />
       </xsl:element>
     </xsl:template>
